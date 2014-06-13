@@ -157,6 +157,14 @@ body {
     position: fixed;
     bottom: 0;
   }
+  .masthead-brand {
+    border: 1px solid rgb(228, 228, 228);
+    background-color: white;
+  }
+  .masthead-nav {
+    float: left;
+    margin-left: 250px;
+  }
   .mastfoot .inner {
     position: absolute;
     right: 0;
@@ -173,13 +181,29 @@ body {
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
+
+  .cover-container {
+    margin-top: 120px;
+    height: 84%;
+  }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1152px) {
   .masthead,
   .mastfoot,
   .cover-container {
     width: 700px;
+  }
+  .masthead-brand {
+    position: fixed;
+    left: 5px;
+    border: none;
+  }
+  .masthead-nav {
+    margin-left: -20px;
+  }
+  .mastfoot .inner {
+    position: fixed;
   }
 }
 
