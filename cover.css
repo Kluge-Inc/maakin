@@ -197,20 +197,18 @@ body {
   .masthead-brand {
     position: fixed;
     left: 5px;
+    top: 20px;
     border: none;
   }
   .masthead-nav {
     margin-left: -20px;
+    margin-top: 0px;
   }
   .mastfoot .inner {
     position: fixed;
   }
-}
-
-
-.birdey {
-  position: absolute; 
-  top: 0px; 
-  right: 0px; 
-  margin: 20px;
+  .cover-container {
+    margin-top: 70px;
+    height: 84%;
+  }
 }
