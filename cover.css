@@ -70,8 +70,11 @@ body {
   height: 82px;
   /*text-indent: -9999px;*/
   margin: auto;
-  height: 185px;
+  height: 182px;
   padding-left: 17px;
+}
+.masthead-brand img {
+  margin-top: -3px;
 }
 
 .masthead-nav {
